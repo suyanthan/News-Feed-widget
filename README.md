@@ -12,9 +12,10 @@ $ npm install
 $ npm start
 $ open http://localhost:3000
 ```
-## Future imporvements
+## Future improvements
 ```
 $-Good to have a loading icon once the "Show more" button is fired.
 $-Hide the "Show more" button once its reached the final pagination.
-
+$-Allow input from the user for their interesting topics and show news based on it.
+$-On hover to the news title, add some CSS styling to highlight the hovered news article.
 
