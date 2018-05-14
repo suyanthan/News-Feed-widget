@@ -50,7 +50,7 @@ class NewsFeed extends Component {
 	}
 
   	render() {
-	    const posts = this.state.newsFeed.map((news, index) =>
+	    const newsCards = this.state.newsFeed.map((news, index) =>
 	      <NewsCard key={index} value={news} />
 	    );
 
@@ -58,7 +58,7 @@ class NewsFeed extends Component {
 	      <div className="newsFeed">
 	        <Filter onFilter={this.handleFilter}/>
 	        <h1 className="newsFeed__title">News</h1>
-	        {posts}
+	        {newsCards}
 	        <button className="newsFeed__show-more" onClick={this.loadMoreNewsFeed}>Show more</button>
 	      </div>
 	    )
